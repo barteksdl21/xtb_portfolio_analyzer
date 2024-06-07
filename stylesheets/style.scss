@@ -1,0 +1,40 @@
+@use "pico/scss";
+
+.grid {
+    grid-column-gap: 0;
+}
+
+#main {
+    padding:10px;
+    margin-top:10px;
+}
+
+#portfolioChartContainer {
+    position:relative;
+    height:450px;
+    margin:0 auto;
+    #portfolioChart {
+        margin:0 auto;
+    }
+}
+
+#portfolioTable {
+    position:relative;
+    margin:0 auto;
+}
+
+table {
+    font-size:13px;
+}
+#loading-container {
+    height:100%;        margin: auto;
+    position: absolute;
+    left: 0; bottom: 0; right: 0;
+    z-index:99;
+    vertical-align: middle;
+    #loading {
+        position: relative;
+        top: 50%;
+        transform: translateY(-50%);
+    }
+}
